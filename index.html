@@ -1,0 +1,3428 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+ line-height: normal;
+  direction: rtl;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  
+  
+}
+
+.column {
+  float: left;
+direction: rtl;
+font-family: Arial, Helvetica, sans-serif;
+  width: 33.3%;
+  margin-bottom: 5px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ border-radius: 4px;
+}
+
+.container {
+  padding: 0 8px;
+  width: 100%;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #267F00;
+  font-size:16px ;
+  font-weight: normal;
+   text-align: center;
+}
+.title2 {
+  color: #303030;
+  font-size:16px ;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 12px;
+  color: white;
+  background-color: #267F00;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  height:;
+ border-radius: 6px;
+}
+
+.button1 {
+  border: none;
+  outline: 0;
+   padding: 12px;
+  color: white;
+  background-color: #267F00;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+ border-radius: 8px;
+}
+.button2 {
+  border-style: solid;
+  border-width: 1px;
+  border-color:white;
+  outline: 0;
+  display: inline-block;
+  padding: 4px;
+  color: white;
+  background-color: #C0C0C0;
+  text-align: center;
+  cursor: pointer;
+  font-size:10px;
+  width:100%;
+ border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #164C00;
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(3px);}
+.button1:hover {
+  background-color: #164C00;
+}
+.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(3px);
+}
+.button2:hover {
+  background-color: #164C00;
+}
+.button2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(3px);}
+
+.shortext {
+    font-size:10px;
+    padding:0 8px ; 
+ BORDER-color: transparent;
+        }
+.shortext2 {
+    font-size:10px;
+    padding:0 8px ; 
+ BORDER-color: transparent;
+ pointer-events: none;
+        } 
+.shortext1 {
+    font-size:12px;
+    padding:0 8px ;
+    BORDER-color: transparent;
+    direction: rtl;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;  
+pointer-events: none;
+    }
+
+
+}
+
+</style>
+</head>
+
+<body>
+
+    <h2>בחרו את המוצרים הרצויים</h>
+    <h5>לאחר מכן יש ללחוץ על העתקה ולשלוח אלי בהודעה בווטסאפ – פשוט </h><br>
+
+
+<div class="row">
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+מלפפונים חמוצים תוצרת בית
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+35
+
+</b> <small><span>&#8362;</span> /
+אריזה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="11111" value="מלפפונים חמוצים תוצרת בית" onclick = "myFunction11111()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count11111 = 0;
+                  
+            function myFunction11111() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field11111").value;
+            count11111 += 1;
+              document.getElementById("field11111").value = " | "+ count11111 +  " יחידות " + document.getElementById("11111").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field11111").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction11111minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction11111minus() {
+var boxout = document.getElementById("field11111").value;
+                        count11111 -= 1;
+            if (count11111 >0){
+             document.getElementById("field11111").value = " | "+count11111 + " יחידות " + document.getElementById("11111").value+" | ";   
+            } else {
+                document.getElementById("field11111").value = "";
+                count11111 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field11111").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field11111">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1TVUooAS2RtMoDAz6x3aW_SygZX2tgeMP
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+מלפפון ״היתר מכירה״
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+10
+
+</b> <small><span>&#8362;</span> /
+ק"ג 
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="74402" value="מלפפון ״היתר מכירה״" onclick = "myFunction74402()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count74402 = 0;
+                  
+            function myFunction74402() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field74402").value;
+            count74402 += 1;
+              document.getElementById("field74402").value = " | "+ count74402 +  " יחידות " + document.getElementById("74402").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field74402").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction74402minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction74402minus() {
+var boxout = document.getElementById("field74402").value;
+                        count74402 -= 1;
+            if (count74402 >0){
+             document.getElementById("field74402").value = " | "+count74402 + " יחידות " + document.getElementById("74402").value+" | ";   
+            } else {
+                document.getElementById("field74402").value = "";
+                count74402 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field74402").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field74402">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1lhKbR9VUEnkAycDWhhlyjjyJaIdBJc-q
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+מלפפונים טריים ממשק ישראלי! המלפפון, שטעמו הניטרלי והעדין גרם לו להיות אורח קבוע בארוחת הערב הישראלית
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+בננות "היתר המכירה"
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+14
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="75158" value="בננות "היתר המכירה"" onclick = "myFunction75158()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count75158 = 0;
+                  
+            function myFunction75158() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field75158").value;
+            count75158 += 1;
+              document.getElementById("field75158").value = " | "+ count75158 +  " יחידות " + document.getElementById("75158").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field75158").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction75158minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction75158minus() {
+var boxout = document.getElementById("field75158").value;
+                        count75158 -= 1;
+            if (count75158 >0){
+             document.getElementById("field75158").value = " | "+count75158 + " יחידות " + document.getElementById("75158").value+" | ";   
+            } else {
+                document.getElementById("field75158").value = "";
+                count75158 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field75158").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field75158">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1LwqC3wrYPQSaaCLwDiYJf2w9cGvjcK2k
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+עגבניות היתר מכירה ״היתר מכירה״
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+10
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="75020" value="עגבניות היתר מכירה ״היתר מכירה״" onclick = "myFunction75020()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count75020 = 0;
+                  
+            function myFunction75020() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field75020").value;
+            count75020 += 1;
+              document.getElementById("field75020").value = " | "+ count75020 +  " יחידות " + document.getElementById("75020").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field75020").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction75020minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction75020minus() {
+var boxout = document.getElementById("field75020").value;
+                        count75020 -= 1;
+            if (count75020 >0){
+             document.getElementById("field75020").value = " | "+count75020 + " יחידות " + document.getElementById("75020").value+" | ";   
+            } else {
+                document.getElementById("field75020").value = "";
+                count75020 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field75020").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field75020">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=17mCPZRYKz_96IFmgDUeNNJS2VYwmlxhI
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+עגבניות ישראליות טריות עם טעם של פעם, טעם של ארץ ישראל הטובה. מעבר להיותן טעימות בכל דרך אפשרית
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+בצל סגול
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 9.80
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="75262" value="בצל סגול" onclick = "myFunction75262()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count75262 = 0;
+                  
+            function myFunction75262() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field75262").value;
+            count75262 += 1;
+              document.getElementById("field75262").value = " | "+ count75262 +  " יחידות " + document.getElementById("75262").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field75262").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction75262minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction75262minus() {
+var boxout = document.getElementById("field75262").value;
+                        count75262 -= 1;
+            if (count75262 >0){
+             document.getElementById("field75262").value = " | "+count75262 + " יחידות " + document.getElementById("75262").value+" | ";   
+            } else {
+                document.getElementById("field75262").value = "";
+                count75262 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field75262").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field75262">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1nl7xnFU1HBIFdi5UOswJJeCvP0QP4gB9
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+.גרסה העדינה והסגולה של הירק האהוב. חריפותו המעודנת מאפשרת לנו ליהנות מהטעם ומהערכים התזונתיים של הבצל בסלט או צלוי בגריל
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+בצל יבש
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+5.2
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="75300" value="בצל יבש" onclick = "myFunction75300()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count75300 = 0;
+                  
+            function myFunction75300() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field75300").value;
+            count75300 += 1;
+              document.getElementById("field75300").value = " | "+ count75300 +  " יחידות " + document.getElementById("75300").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field75300").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction75300minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction75300minus() {
+var boxout = document.getElementById("field75300").value;
+                        count75300 -= 1;
+            if (count75300 >0){
+             document.getElementById("field75300").value = " | "+count75300 + " יחידות " + document.getElementById("75300").value+" | ";   
+            } else {
+                document.getElementById("field75300").value = "";
+                count75300 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field75300").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field75300">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1MSP_So6lBPR3JbtoYE4grdx-nsuKRNW2
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+אחד מהכוכבים של המטבח, זה שאי אפשר לעשות צעד במטבח בלעדיו. סוד קסמו של הבצל טמון במנעד הטעמים שהוא מעניק: מהחריפות הייחודית שלו כשהוא טרי ובמצבו הטבעי, דרך המתיקות הנהדרת כשהוא מבושל ועד הקריספיות הממכרת כשהוא מטוגן
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+פלפל אדום
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+13
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="75450" value="פלפל אדום" onclick = "myFunction75450()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count75450 = 0;
+                  
+            function myFunction75450() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field75450").value;
+            count75450 += 1;
+              document.getElementById("field75450").value = " | "+ count75450 +  " יחידות " + document.getElementById("75450").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field75450").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction75450minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction75450minus() {
+var boxout = document.getElementById("field75450").value;
+                        count75450 -= 1;
+            if (count75450 >0){
+             document.getElementById("field75450").value = " | "+count75450 + " יחידות " + document.getElementById("75450").value+" | ";   
+            } else {
+                document.getElementById("field75450").value = "";
+                count75450 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field75450").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field75450">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1xIOAlyGp3TVkpYtxPzzA3id2_s29NPO1
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+מתוק, פריך וטרי. פלפל אדום - מושלם בסלט ומתאים גם למוקפצים, ממולאים, ותבשילים אחרים
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+נענע
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 7.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="75516" value="נענע" onclick = "myFunction75516()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count75516 = 0;
+                  
+            function myFunction75516() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field75516").value;
+            count75516 += 1;
+              document.getElementById("field75516").value = " | "+ count75516 +  " יחידות " + document.getElementById("75516").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field75516").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction75516minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction75516minus() {
+var boxout = document.getElementById("field75516").value;
+                        count75516 -= 1;
+            if (count75516 >0){
+             document.getElementById("field75516").value = " | "+count75516 + " יחידות " + document.getElementById("75516").value+" | ";   
+            } else {
+                document.getElementById("field75516").value = "";
+                count75516 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field75516").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field75516">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1I06NgyMMC5NjuI8rtMybucHEP7xxk2TP
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+הנענע הריחנית עשתה הסבה מעלים המשמשים להעשרת הטעם של התה לעשב תיבול ארומתי שמוסיפים לתבשילים, סלטים ועוד
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+פטרוזיליה
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 7.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="75554" value="פטרוזיליה" onclick = "myFunction75554()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count75554 = 0;
+                  
+            function myFunction75554() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field75554").value;
+            count75554 += 1;
+              document.getElementById("field75554").value = " | "+ count75554 +  " יחידות " + document.getElementById("75554").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field75554").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction75554minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction75554minus() {
+var boxout = document.getElementById("field75554").value;
+                        count75554 -= 1;
+            if (count75554 >0){
+             document.getElementById("field75554").value = " | "+count75554 + " יחידות " + document.getElementById("75554").value+" | ";   
+            } else {
+                document.getElementById("field75554").value = "";
+                count75554 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field75554").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field75554">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1zTufdj-PjYST_bxNEeCph13Kw5Kcbcbv
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+פטרוזליה – ירק תבלינים באריזת נספק
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+תפוח אדמה לבן ארוז דוד משה
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+23
+
+</b> <small><span>&#8362;</span> /
+ארוז
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="75620" value="תפוח אדמה לבן ארוז דוד משה" onclick = "myFunction75620()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count75620 = 0;
+                  
+            function myFunction75620() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field75620").value;
+            count75620 += 1;
+              document.getElementById("field75620").value = " | "+ count75620 +  " יחידות " + document.getElementById("75620").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field75620").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction75620minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction75620minus() {
+var boxout = document.getElementById("field75620").value;
+                        count75620 -= 1;
+            if (count75620 >0){
+             document.getElementById("field75620").value = " | "+count75620 + " יחידות " + document.getElementById("75620").value+" | ";   
+            } else {
+                document.getElementById("field75620").value = "";
+                count75620 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field75620").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field75620">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1R-WhEFcKJMDI-Km2BIucFqzhA2n8gQv2
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+קישואים ״יבול שישית״
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+13
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="75648" value="קישואים ״יבול שישית״" onclick = "myFunction75648()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count75648 = 0;
+                  
+            function myFunction75648() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field75648").value;
+            count75648 += 1;
+              document.getElementById("field75648").value = " | "+ count75648 +  " יחידות " + document.getElementById("75648").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field75648").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction75648minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction75648minus() {
+var boxout = document.getElementById("field75648").value;
+                        count75648 -= 1;
+            if (count75648 >0){
+             document.getElementById("field75648").value = " | "+count75648 + " יחידות " + document.getElementById("75648").value+" | ";   
+            } else {
+                document.getElementById("field75648").value = "";
+                count75648 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field75648").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field75648">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=176k8cMOCXA_W9ud8ZBFCtiV_QprIuWzl
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+אחד הירקות האהובים והמוכרים בישראל. משתלב מעולה באינספור תבשילים, מקוסקוס מפנק ועד ממולאים חמצמצים ומעשיר כל תבשיל בטעם ייחודי ומרקם נהדר
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+חסה בשקית
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 7.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="01017" value="חסה בשקית" onclick = "myFunction01017()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count01017 = 0;
+                  
+            function myFunction01017() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field01017").value;
+            count01017 += 1;
+              document.getElementById("field01017").value = " | "+ count01017 +  " יחידות " + document.getElementById("01017").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field01017").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction01017minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction01017minus() {
+var boxout = document.getElementById("field01017").value;
+                        count01017 -= 1;
+            if (count01017 >0){
+             document.getElementById("field01017").value = " | "+count01017 + " יחידות " + document.getElementById("01017").value+" | ";   
+            } else {
+                document.getElementById("field01017").value = "";
+                count01017 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field01017").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field01017">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1oA4iAjqqFsrNM_0cGV6sv0Y80SSkWXDL
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+רומית לבבות
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 10.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="01051" value="רומית לבבות" onclick = "myFunction01051()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count01051 = 0;
+                  
+            function myFunction01051() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field01051").value;
+            count01051 += 1;
+              document.getElementById("field01051").value = " | "+ count01051 +  " יחידות " + document.getElementById("01051").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field01051").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction01051minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction01051minus() {
+var boxout = document.getElementById("field01051").value;
+                        count01051 -= 1;
+            if (count01051 >0){
+             document.getElementById("field01051").value = " | "+count01051 + " יחידות " + document.getElementById("01051").value+" | ";   
+            } else {
+                document.getElementById("field01051").value = "";
+                count01051 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field01051").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field01051">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=15mmGwdYnLMs5aInxOUtfTFVhPnn-YF07
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+חסה פראנק זוג
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 10.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="11006" value="חסה פראנק זוג" onclick = "myFunction11006()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count11006 = 0;
+                  
+            function myFunction11006() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field11006").value;
+            count11006 += 1;
+              document.getElementById("field11006").value = " | "+ count11006 +  " יחידות " + document.getElementById("11006").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field11006").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction11006minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction11006minus() {
+var boxout = document.getElementById("field11006").value;
+                        count11006 -= 1;
+            if (count11006 >0){
+             document.getElementById("field11006").value = " | "+count11006 + " יחידות " + document.getElementById("11006").value+" | ";   
+            } else {
+                document.getElementById("field11006").value = "";
+                count11006 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field11006").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field11006">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1c7Dg7q1nATyLkm1qwtGoLRgQK6HQUxk7
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+ממשפחת חסה חמאה
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+חסה סלנובה זוג
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 12.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="11044" value="חסה סלנובה זוג" onclick = "myFunction11044()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count11044 = 0;
+                  
+            function myFunction11044() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field11044").value;
+            count11044 += 1;
+              document.getElementById("field11044").value = " | "+ count11044 +  " יחידות " + document.getElementById("11044").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field11044").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction11044minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction11044minus() {
+var boxout = document.getElementById("field11044").value;
+                        count11044 -= 1;
+            if (count11044 >0){
+             document.getElementById("field11044").value = " | "+count11044 + " יחידות " + document.getElementById("11044").value+" | ";   
+            } else {
+                document.getElementById("field11044").value = "";
+                count11044 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field11044").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field11044">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1OheWVStG3wIas19s2pHnThtBgip-i-AI
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+ממשפחת חסה חמאה
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+חסה פרנק יחידה
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 8.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="11082" value="חסה פרנק יחידה" onclick = "myFunction11082()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count11082 = 0;
+                  
+            function myFunction11082() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field11082").value;
+            count11082 += 1;
+              document.getElementById("field11082").value = " | "+ count11082 +  " יחידות " + document.getElementById("11082").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field11082").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction11082minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction11082minus() {
+var boxout = document.getElementById("field11082").value;
+                        count11082 -= 1;
+            if (count11082 >0){
+             document.getElementById("field11082").value = " | "+count11082 + " יחידות " + document.getElementById("11082").value+" | ";   
+            } else {
+                document.getElementById("field11082").value = "";
+                count11082 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field11082").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field11082">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1X5HU4YztrXUC1Ndui6y4gGMetEsIqR0o
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+ממשפחת חסה חמאה
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+חסה ליטל ג'ם
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 14.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="11120" value="חסה ליטל ג'ם" onclick = "myFunction11120()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count11120 = 0;
+                  
+            function myFunction11120() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field11120").value;
+            count11120 += 1;
+              document.getElementById("field11120").value = " | "+ count11120 +  " יחידות " + document.getElementById("11120").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field11120").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction11120minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction11120minus() {
+var boxout = document.getElementById("field11120").value;
+                        count11120 -= 1;
+            if (count11120 >0){
+             document.getElementById("field11120").value = " | "+count11120 + " יחידות " + document.getElementById("11120").value+" | ";   
+            } else {
+                document.getElementById("field11120").value = "";
+                count11120 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field11120").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field11120">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1Y4CjPPuLSpsDsYgAf_ktNGDpt0FlHJXw
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+חסה לבבות קטנות המשלבות טעם מתקתק יחודי
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+חסה לילק
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 12.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="11158" value="חסה לילק" onclick = "myFunction11158()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count11158 = 0;
+                  
+            function myFunction11158() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field11158").value;
+            count11158 += 1;
+              document.getElementById("field11158").value = " | "+ count11158 +  " יחידות " + document.getElementById("11158").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field11158").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction11158minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction11158minus() {
+var boxout = document.getElementById("field11158").value;
+                        count11158 -= 1;
+            if (count11158 >0){
+             document.getElementById("field11158").value = " | "+count11158 + " יחידות " + document.getElementById("11158").value+" | ";   
+            } else {
+                document.getElementById("field11158").value = "";
+                count11158 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field11158").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field11158">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=12fsZEsTF8Y3p-TpW_D-DO_eJn2eiANyJ
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+חסה לליק או קריסטל, היא חסה מסולסלת, קראנצ’ית במיוחד, ועדינה, עם טעם כיפי ומעניין' מעולה לסלט קיסר.
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+שמיר
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 7.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="11198" value="שמיר" onclick = "myFunction11198()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count11198 = 0;
+                  
+            function myFunction11198() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field11198").value;
+            count11198 += 1;
+              document.getElementById("field11198").value = " | "+ count11198 +  " יחידות " + document.getElementById("11198").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field11198").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction11198minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction11198minus() {
+var boxout = document.getElementById("field11198").value;
+                        count11198 -= 1;
+            if (count11198 >0){
+             document.getElementById("field11198").value = " | "+count11198 + " יחידות " + document.getElementById("11198").value+" | ";   
+            } else {
+                document.getElementById("field11198").value = "";
+                count11198 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field11198").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field11198">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1moPZP4dMFSRh3esysKxMfB4IVPf3RIeH
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+מעולה לסלט קיסר
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+סלרי
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 7.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="11252" value="סלרי" onclick = "myFunction11252()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count11252 = 0;
+                  
+            function myFunction11252() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field11252").value;
+            count11252 += 1;
+              document.getElementById("field11252").value = " | "+ count11252 +  " יחידות " + document.getElementById("11252").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field11252").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction11252minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction11252minus() {
+var boxout = document.getElementById("field11252").value;
+                        count11252 -= 1;
+            if (count11252 >0){
+             document.getElementById("field11252").value = " | "+count11252 + " יחידות " + document.getElementById("11252").value+" | ";   
+            } else {
+                document.getElementById("field11252").value = "";
+                count11252 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field11252").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field11252">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1kqmrZbMsr2du-GM0iUUuk6YftpcOAWQG
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+גבעולים, עלים, זרעים ושורשים. הוא משמש בעיקר כירק וכתבלין המספק טעם נפלא ועשיר לתבשילים, למרקים
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+מנגו
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+16
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="11304" value="מנגו" onclick = "myFunction11304()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count11304 = 0;
+                  
+            function myFunction11304() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field11304").value;
+            count11304 += 1;
+              document.getElementById("field11304").value = " | "+ count11304 +  " יחידות " + document.getElementById("11304").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field11304").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction11304minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction11304minus() {
+var boxout = document.getElementById("field11304").value;
+                        count11304 -= 1;
+            if (count11304 >0){
+             document.getElementById("field11304").value = " | "+count11304 + " יחידות " + document.getElementById("11304").value+" | ";   
+            } else {
+                document.getElementById("field11304").value = "";
+                count11304 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field11304").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field11304">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=14urxRB8haP5uQGGEBbXi5JuITZHp7cSS
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+גרגר
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 10.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="16006" value="גרגר" onclick = "myFunction16006()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count16006 = 0;
+                  
+            function myFunction16006() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field16006").value;
+            count16006 += 1;
+              document.getElementById("field16006").value = " | "+ count16006 +  " יחידות " + document.getElementById("16006").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field16006").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction16006minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction16006minus() {
+var boxout = document.getElementById("field16006").value;
+                        count16006 -= 1;
+            if (count16006 >0){
+             document.getElementById("field16006").value = " | "+count16006 + " יחידות " + document.getElementById("16006").value+" | ";   
+            } else {
+                document.getElementById("field16006").value = "";
+                count16006 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field16006").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field16006">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1HQ137qvDOo6w3HYDkamqiLbI7m_c9S2n
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+תרד
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 13.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="16050" value="תרד" onclick = "myFunction16050()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count16050 = 0;
+                  
+            function myFunction16050() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field16050").value;
+            count16050 += 1;
+              document.getElementById("field16050").value = " | "+ count16050 +  " יחידות " + document.getElementById("16050").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field16050").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction16050minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction16050minus() {
+var boxout = document.getElementById("field16050").value;
+                        count16050 -= 1;
+            if (count16050 >0){
+             document.getElementById("field16050").value = " | "+count16050 + " יחידות " + document.getElementById("16050").value+" | ";   
+            } else {
+                document.getElementById("field16050").value = "";
+                count16050 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field16050").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field16050">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1Qn6ezqhVt-PDS_bh1KTbtnNCaW9JcSYj
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+מיקס לסלט
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 13.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="16088" value="מיקס לסלט" onclick = "myFunction16088()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count16088 = 0;
+                  
+            function myFunction16088() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field16088").value;
+            count16088 += 1;
+              document.getElementById("field16088").value = " | "+ count16088 +  " יחידות " + document.getElementById("16088").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field16088").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction16088minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction16088minus() {
+var boxout = document.getElementById("field16088").value;
+                        count16088 -= 1;
+            if (count16088 >0){
+             document.getElementById("field16088").value = " | "+count16088 + " יחידות " + document.getElementById("16088").value+" | ";   
+            } else {
+                document.getElementById("field16088").value = "";
+                count16088 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field16088").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field16088">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1Ta7fkGLJp5lmHDbwA3y2KlehatiTobyq
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+פאק צ'וי
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 13.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="16132" value="פאק צ'וי" onclick = "myFunction16132()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count16132 = 0;
+                  
+            function myFunction16132() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field16132").value;
+            count16132 += 1;
+              document.getElementById("field16132").value = " | "+ count16132 +  " יחידות " + document.getElementById("16132").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field16132").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction16132minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction16132minus() {
+var boxout = document.getElementById("field16132").value;
+                        count16132 -= 1;
+            if (count16132 >0){
+             document.getElementById("field16132").value = " | "+count16132 + " יחידות " + document.getElementById("16132").value+" | ";   
+            } else {
+                document.getElementById("field16132").value = "";
+                count16132 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field16132").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field16132">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1ubiMtIFG49GDc_ouFKJB12fAFR34vCYc
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+נבטים על מצא
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+ 15.00
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="16160" value="נבטים על מצא" onclick = "myFunction16160()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count16160 = 0;
+                  
+            function myFunction16160() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field16160").value;
+            count16160 += 1;
+              document.getElementById("field16160").value = " | "+ count16160 +  " יחידות " + document.getElementById("16160").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field16160").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction16160minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction16160minus() {
+var boxout = document.getElementById("field16160").value;
+                        count16160 -= 1;
+            if (count16160 >0){
+             document.getElementById("field16160").value = " | "+count16160 + " יחידות " + document.getElementById("16160").value+" | ";   
+            } else {
+                document.getElementById("field16160").value = "";
+                count16160 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field16160").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field16160">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1U2mPACepQL4z9y_ynu2hHEwCkYtLNXnz
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+קולורבי
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+10
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="16286" value="קולורבי" onclick = "myFunction16286()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count16286 = 0;
+                  
+            function myFunction16286() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field16286").value;
+            count16286 += 1;
+              document.getElementById("field16286").value = " | "+ count16286 +  " יחידות " + document.getElementById("16286").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field16286").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction16286minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction16286minus() {
+var boxout = document.getElementById("field16286").value;
+                        count16286 -= 1;
+            if (count16286 >0){
+             document.getElementById("field16286").value = " | "+count16286 + " יחידות " + document.getElementById("16286").value+" | ";   
+            } else {
+                document.getElementById("field16286").value = "";
+                count16286 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field16286").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field16286">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1UHiSXdEvScrrkSoRLBvdAVzbpT4YUeBu
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+ שזיף אדום
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+23
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="30215" value=" שזיף אדום" onclick = "myFunction30215()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count30215 = 0;
+                  
+            function myFunction30215() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field30215").value;
+            count30215 += 1;
+              document.getElementById("field30215").value = " | "+ count30215 +  " יחידות " + document.getElementById("30215").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field30215").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction30215minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction30215minus() {
+var boxout = document.getElementById("field30215").value;
+                        count30215 -= 1;
+            if (count30215 >0){
+             document.getElementById("field30215").value = " | "+count30215 + " יחידות " + document.getElementById("30215").value+" | ";   
+            } else {
+                document.getElementById("field30215").value = "";
+                count30215 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field30215").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field30215">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1BmvVzsTmSTc16j1bRLLPnDaYvNS7RdmQ
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+אלו מכם שאוהבים את השזיפים שלהם מתוקים במיוחד יהנו מהעסיסיות הבלתי נגמרת של השזיף האדום. זן בעל קליפה אדומה ו"בשר" צהוב בפנים, מעט חמצמץ ולכן מושלם לאפייה ובישול.
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+גזר ארוז אוצר 
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+6
+
+</b> <small><span>&#8362;</span> /
+מארז
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="30253" value="גזר ארוז אוצר " onclick = "myFunction30253()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count30253 = 0;
+                  
+            function myFunction30253() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field30253").value;
+            count30253 += 1;
+              document.getElementById("field30253").value = " | "+ count30253 +  " יחידות " + document.getElementById("30253").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field30253").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction30253minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction30253minus() {
+var boxout = document.getElementById("field30253").value;
+                        count30253 -= 1;
+            if (count30253 >0){
+             document.getElementById("field30253").value = " | "+count30253 + " יחידות " + document.getElementById("30253").value+" | ";   
+            } else {
+                document.getElementById("field30253").value = "";
+                count30253 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field30253").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field30253">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=188BpaJRBN_KF6T_UznExFbFtbHaj_mwz
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+שום ישראלי
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+36
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="32017" value="שום ישראלי" onclick = "myFunction32017()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count32017 = 0;
+                  
+            function myFunction32017() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field32017").value;
+            count32017 += 1;
+              document.getElementById("field32017").value = " | "+ count32017 +  " יחידות " + document.getElementById("32017").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field32017").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction32017minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction32017minus() {
+var boxout = document.getElementById("field32017").value;
+                        count32017 -= 1;
+            if (count32017 >0){
+             document.getElementById("field32017").value = " | "+count32017 + " יחידות " + document.getElementById("32017").value+" | ";   
+            } else {
+                document.getElementById("field32017").value = "";
+                count32017 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field32017").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field32017">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1OL3BR9DpFKrg6aOv0apMQ9mwAlecK-1B
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+דלורית
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+9.8
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="32095" value="דלורית" onclick = "myFunction32095()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count32095 = 0;
+                  
+            function myFunction32095() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field32095").value;
+            count32095 += 1;
+              document.getElementById("field32095").value = " | "+ count32095 +  " יחידות " + document.getElementById("32095").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field32095").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction32095minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction32095minus() {
+var boxout = document.getElementById("field32095").value;
+                        count32095 -= 1;
+            if (count32095 >0){
+             document.getElementById("field32095").value = " | "+count32095 + " יחידות " + document.getElementById("32095").value+" | ";   
+            } else {
+                document.getElementById("field32095").value = "";
+                count32095 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field32095").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field32095">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1N5FnuOfoQ236KlSJ_Nlaag1RsWlA31UO
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+תפוח אדמה אדום ארוז דוד משה
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+23
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="32177" value="תפוח אדמה אדום ארוז דוד משה" onclick = "myFunction32177()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count32177 = 0;
+                  
+            function myFunction32177() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field32177").value;
+            count32177 += 1;
+              document.getElementById("field32177").value = " | "+ count32177 +  " יחידות " + document.getElementById("32177").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field32177").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction32177minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction32177minus() {
+var boxout = document.getElementById("field32177").value;
+                        count32177 -= 1;
+            if (count32177 >0){
+             document.getElementById("field32177").value = " | "+count32177 + " יחידות " + document.getElementById("32177").value+" | ";   
+            } else {
+                document.getElementById("field32177").value = "";
+                count32177 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field32177").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field32177">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1bENCaBHC7S23fn2wyhESn3DnHnKNbchp
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+עגבניות שרי תמר לובלו
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+17.7
+
+</b> <small><span>&#8362;</span> /
+יחידת אריזה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="32215" value="עגבניות שרי תמר לובלו" onclick = "myFunction32215()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count32215 = 0;
+                  
+            function myFunction32215() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field32215").value;
+            count32215 += 1;
+              document.getElementById("field32215").value = " | "+ count32215 +  " יחידות " + document.getElementById("32215").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field32215").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction32215minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction32215minus() {
+var boxout = document.getElementById("field32215").value;
+                        count32215 -= 1;
+            if (count32215 >0){
+             document.getElementById("field32215").value = " | "+count32215 + " יחידות " + document.getElementById("32215").value+" | ";   
+            } else {
+                document.getElementById("field32215").value = "";
+                count32215 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field32215").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field32215">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1X_elavVNYggKDJ3TGT_QgbqhaJDx-KlF
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+תפוח אדמה אדום בתפזורת
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+7
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="67199" value="תפוח אדמה אדום בתפזורת" onclick = "myFunction67199()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count67199 = 0;
+                  
+            function myFunction67199() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field67199").value;
+            count67199 += 1;
+              document.getElementById("field67199").value = " | "+ count67199 +  " יחידות " + document.getElementById("67199").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field67199").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction67199minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction67199minus() {
+var boxout = document.getElementById("field67199").value;
+                        count67199 -= 1;
+            if (count67199 >0){
+             document.getElementById("field67199").value = " | "+count67199 + " יחידות " + document.getElementById("67199").value+" | ";   
+            } else {
+                document.getElementById("field67199").value = "";
+                count67199 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field67199").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field67199">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1jfJgt7UlmpuUUGuNI9D63wDXhx6yecGw
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+תפוח אדמה הוא אחד הירקות הנפוצים בעולם אם לא הכי נפוץ. הזן האדום של תפוחי אדמה הוא זן בעל כמות יחסית קטנה של מים ולכן מתאים במיוחד לטיגון וצלייה
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+מלון
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+10
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="01007" value="מלון" onclick = "myFunction01007()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count01007 = 0;
+                  
+            function myFunction01007() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field01007").value;
+            count01007 += 1;
+              document.getElementById("field01007").value = " | "+ count01007 +  " יחידות " + document.getElementById("01007").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field01007").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction01007minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction01007minus() {
+var boxout = document.getElementById("field01007").value;
+                        count01007 -= 1;
+            if (count01007 >0){
+             document.getElementById("field01007").value = " | "+count01007 + " יחידות " + document.getElementById("01007").value+" | ";   
+            } else {
+                document.getElementById("field01007").value = "";
+                count01007 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field01007").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field01007">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1nZDs868SHTuEM-Nlb2kdnifpLNRIOxns
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+לימון פרימיום 
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+12
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="01045" value="לימון פרימיום " onclick = "myFunction01045()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count01045 = 0;
+                  
+            function myFunction01045() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field01045").value;
+            count01045 += 1;
+              document.getElementById("field01045").value = " | "+ count01045 +  " יחידות " + document.getElementById("01045").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field01045").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction01045minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction01045minus() {
+var boxout = document.getElementById("field01045").value;
+                        count01045 -= 1;
+            if (count01045 >0){
+             document.getElementById("field01045").value = " | "+count01045 + " יחידות " + document.getElementById("01045").value+" | ";   
+            } else {
+                document.getElementById("field01045").value = "";
+                count01045 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field01045").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field01045">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1GRBnEeodh7RkarjVIUNm7IE-JMWtV7MG
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+חצילים 
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+7.7
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="01139" value="חצילים " onclick = "myFunction01139()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count01139 = 0;
+                  
+            function myFunction01139() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field01139").value;
+            count01139 += 1;
+              document.getElementById("field01139").value = " | "+ count01139 +  " יחידות " + document.getElementById("01139").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field01139").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction01139minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction01139minus() {
+var boxout = document.getElementById("field01139").value;
+                        count01139 -= 1;
+            if (count01139 >0){
+             document.getElementById("field01139").value = " | "+count01139 + " יחידות " + document.getElementById("01139").value+" | ";   
+            } else {
+                document.getElementById("field01139").value = "";
+                count01139 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field01139").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field01139">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1uRny81GNFVrvSPQMaqJV09CTquAkwrBW
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+בטטה
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+11.9
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="28011" value="בטטה" onclick = "myFunction28011()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count28011 = 0;
+                  
+            function myFunction28011() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field28011").value;
+            count28011 += 1;
+              document.getElementById("field28011").value = " | "+ count28011 +  " יחידות " + document.getElementById("28011").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field28011").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction28011minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction28011minus() {
+var boxout = document.getElementById("field28011").value;
+                        count28011 -= 1;
+            if (count28011 >0){
+             document.getElementById("field28011").value = " | "+count28011 + " יחידות " + document.getElementById("28011").value+" | ";   
+            } else {
+                document.getElementById("field28011").value = "";
+                count28011 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field28011").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field28011">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1rWFOvMPbdRLanG9tswjfwwnyo1iqmKhW
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+אבטיח מתוק
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+4
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="52522" value="אבטיח מתוק" onclick = "myFunction52522()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count52522 = 0;
+                  
+            function myFunction52522() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field52522").value;
+            count52522 += 1;
+              document.getElementById("field52522").value = " | "+ count52522 +  " יחידות " + document.getElementById("52522").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field52522").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction52522minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction52522minus() {
+var boxout = document.getElementById("field52522").value;
+                        count52522 -= 1;
+            if (count52522 >0){
+             document.getElementById("field52522").value = " | "+count52522 + " יחידות " + document.getElementById("52522").value+" | ";   
+            } else {
+                document.getElementById("field52522").value = "";
+                count52522 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field52522").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field52522">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1L2PKcevjFuIfrhRzgtTV7h3Dh4FUb164
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+מנגו
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+13
+
+</b> <small><span>&#8362;</span> /
+יחידה
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="22221" value="מנגו" onclick = "myFunction22221()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count22221 = 0;
+                  
+            function myFunction22221() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field22221").value;
+            count22221 += 1;
+              document.getElementById("field22221").value = " | "+ count22221 +  " יחידות " + document.getElementById("22221").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field22221").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction22221minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction22221minus() {
+var boxout = document.getElementById("field22221").value;
+                        count22221 -= 1;
+            if (count22221 >0){
+             document.getElementById("field22221").value = " | "+count22221 + " יחידות " + document.getElementById("22221").value+" | ";   
+            } else {
+                document.getElementById("field22221").value = "";
+                count22221 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field22221").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field22221">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1bgYTZRyKkBdchCC_jZ2Ax1iicXfaGg9u
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+אגס
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+14
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="22223" value="אגס" onclick = "myFunction22223()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count22223 = 0;
+                  
+            function myFunction22223() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field22223").value;
+            count22223 += 1;
+              document.getElementById("field22223").value = " | "+ count22223 +  " יחידות " + document.getElementById("22223").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field22223").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction22223minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction22223minus() {
+var boxout = document.getElementById("field22223").value;
+                        count22223 -= 1;
+            if (count22223 >0){
+             document.getElementById("field22223").value = " | "+count22223 + " יחידות " + document.getElementById("22223").value+" | ";   
+            } else {
+                document.getElementById("field22223").value = "";
+                count22223 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field22223").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field22223">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=1JFgOcCiPDXv6JBVLkWcAxJoPMy9PbIYL
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+אגס מתוק
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+      <div class="card">
+       
+      <table>
+          <tr>
+    
+      <td>
+          <h2 class="title2">
+ענבים קדושת שביעית
+</h2>
+      <div class="container">
+       
+      <h2 class="title"><b>
+13
+
+</b> <small><span>&#8362;</span> /
+ק"ג
+
+ </small>
+        </h2>
+     <p>  <button class="button" id="22225" value="ענבים קדושת שביעית" onclick = "myFunction22225()">הוספת יחידה +</button><br>
+<script type="text/javascript">
+                  var count22225 = 0;
+                  
+            function myFunction22225() {
+ var str = "אור שלום, שלח לי בבקשה:\n";
+            var boxout = document.getElementById("field22225").value;
+            count22225 += 1;
+              document.getElementById("field22225").value = " | "+ count22225 +  " יחידות " + document.getElementById("22225").value+" | ";              
+                        
+var strcopybox = document.getElementById("copybox").value.replace(str,'');
+                       var newtext =strcopybox.replace(boxout,document.getElementById("field22225").value);
+               
+                  document.getElementById("copybox").value= str + newtext;
+            }
+            </script>
+          
+           <button class="button2" onclick = "myFunction22225minus()"> הורדת יחידה - </button>          <script type="text/javascript">
+           
+            
+            function myFunction22225minus() {
+var boxout = document.getElementById("field22225").value;
+                        count22225 -= 1;
+            if (count22225 >0){
+             document.getElementById("field22225").value = " | "+count22225 + " יחידות " + document.getElementById("22225").value+" | ";   
+            } else {
+                document.getElementById("field22225").value = "";
+                count22225 = 0;
+         }
+                  var newtext = document.getElementById("copybox").value.replace(boxout,document.getElementById("field22225").value);
+                  
+                  document.getElementById("copybox").value= newtext;
+                   
+                     
+                     
+            }
+            </script>
+          <input class="shortext2" type="text" id="field22225">
+          </p> 
+
+       <td style="width:50%">
+          
+      <img src="
+http://drive.google.com/uc?export=view&id=15_W3vhGL5W2kQfwdehqsqz6bVmaARnSt
+" alt=" NM" style="width:80%">
+     </td>
+        </tr> </table>
+    <p class = "shortext">
+
+    </p>
+  
+   
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+                <textarea class="shortext1" id="copybox" rows="10" cols="60 ">
+
+</textarea>
+     
+     
+    <input class="button1"  type="button" id="copyID" value="העתק והעבר לוואטסאפ"
+    onclick="myFunctionw()"/>
+   
+    <script>
+    
+function myFunctionw() {
+    var ordertext = document.getElementById("copybox").value;
+    var textosend = "https://api.whatsapp.com/send/?phone=17472383902&text=" + ordertext + "&app_absent=0";
+  window.open(textosend);
+}
+</script>
+   
+
+    
+      
+</body>
+</html>
